@@ -1,0 +1,16 @@
+{
+  "name": "NTPV_JS_Test_0.1",
+  "version": "0.0.1",
+  "description": "Javascript Frontend Developer Test",
+  "main": "",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "npm i && npm run test:watch",
+    "test": "./node_modules/.bin/jest",
+    "test:watch": "./node_modules/.bin/jest --watchAll"
+  },
+  "devDependencies": {
+    "jest": "^21.2.1"
+  }
+}
